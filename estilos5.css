@@ -1,0 +1,39 @@
+.texto1 {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(23, 216, 216);
+    position: relative;
+    left: 635px;
+}
+.texto2 {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(23, 216, 216);
+    position: relative;
+    left: 550px;
+}
+.button1 {
+        font-family: 'Permanent Marker', cursive;
+        position: relative;
+        left: 575px;
+        top: 20px;
+        background-color: rgb(23, 216, 216);
+        border-radius: 1vh;
+}
+.button2 {
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    left: 625px;
+    top: 20px;
+    background-color: rgb(23, 216, 216);
+    border-radius: 1vh;
+}
+.button3 {
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    left: 675px;
+    top: 20px;
+    background-color: rgb(23, 216, 216);
+    border-radius: 1vh;
+}
+body{
+    background-color: purple;
+}

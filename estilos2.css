@@ -1,0 +1,11 @@
+input:hover {
+       background-color:mediumpurple
+}
+.label::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    opacity: 0.5;
+}

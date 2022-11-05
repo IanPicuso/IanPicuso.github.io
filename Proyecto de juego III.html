@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./qweyuqweu.js"></script>
+    <link href="./qweiqwei.css" rel="stylesheet">
+    <title>Proyecto de juego III</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<body>
+    <section id="screen-1" class="active">
+        <div class="container">
+
+            <div class="option-grid">
+
+                <h1 class="title">¡Bienvenido al piedra, papel o tijera!</h1>
+
+                <h2 class="subtitle">Elige entre cualquiera de las 3 opciones y empezarás a jugar</h2>
+
+                <div class="opción">
+
+                    <button class="boton" onclick="Play(1)">
+                        <i class="fa-solid fa-hand-back-fist rock"></i>
+                        <img src="./manopiedra-removebg-preview.png" width="50px" height="50px">
+                        Piedra
+                    </button>
+
+                    <button class="boton" onclick="Play(2)">
+                        <i class="fa-solid fa-hand paper"></i>
+                        <img src="./mano_papel-removebg-preview.png" width="50px" height="50px">
+                        Papel
+                    </button>
+
+                    <button class="boton" onclick="Play(3)">
+                        <i class="fa-solid fa-hand-scissors scissors"></i>
+                        <img src="./mano_tijera-removebg-preview.png" width="50px" height="50px">
+                        Tijera
+                    </button>
+                </div>
+
+                <div class="container">
+
+                    <div class="grid">
+
+                        <button class="boton" onclick="Restart()">Reiniciar contador</button>
+
+                        <div class="opción">
+
+                            <div class="marcador">
+
+                                <h3 class="puntaje victories">Victorias: 0</h3>
+
+                                <h3 class="puntaje streak-victories">Racha de victorias: 0</h3>
+
+                                <h3 class="puntaje most-streak">Mayor racha de victorias: 0</h3>
+
+                                <h3 class="puntaje draws">Empates: 0</h3>
+
+                                <h3 class="puntaje defeats">Derrotas: 0</h3>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+
+    <section id="screen-2">
+
+        <div class="container">
+
+            <p class="resultado">No anda esto</p>
+
+            <button class="boton" onclick="inicio()">Regresar al inicio</button>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
+</body>
+</html>
